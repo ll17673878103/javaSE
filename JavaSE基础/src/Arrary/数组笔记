@@ -7,4 +7,3 @@ new 数据类型[数组长度] ==> 堆内存:存储new出来的内存(实体，�
 数组操作的两个常见问题:
 数组越界问题(ArrayIndexOutBoundException):访问的数组中不存在的索引对应的元素，造成索引越界问题
 空指针异常(NullPointerException):初始化一个数组，给数组赋值一个null，就会导致空指针异常
-李旭卷死
