@@ -1,0 +1,24 @@
+API：
+    1.概述:API(Application Programming Interface):应用程序编程接口
+
+    2.javaApI：指的是JDK中提供各种功能的java类
+
+    3.API的练习：
+        注意:1.调用方法的时候，如果方法有明确的返回值，我们用变量接收
+            2.可以手动完成，也可以使用快捷键的方式完成(Ctrl+Alt+V)
+
+    3.String概述
+        String类在java.lang包下，所以使用的时候不需要导包
+        java程序中所有带双引号的字符串都是String类的对象
+        1.字符串的特点：
+            字符串不可变，他们的值在创建后就不能更改
+            虽然String的值不可变的，但是他们可以被共享
+            字符串效果上相当于字符数组(char[]),但是底层原理是字节数组(byte[])
+            JDK8及以前都是字符数组，JDK9及以后都是字节数组
+
+        2.String构造方法
+            方法名                                         说明
+            public String()                  | 创建一个空白字符串对象，不含有任何对象
+            public String(char[] chs)        | 根据字符数组的内容，来创建字符串对象
+            public String(byte[] bys)        | 根据字节数组的内容，来创建字符串对象
+            String s = "abc"                 | 直接赋值的方式创建字符串对象，内容为abc
