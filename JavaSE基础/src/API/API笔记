@@ -22,4 +22,3 @@ API：
             public String(char[] chs)        | 根据字符数组的内容，来创建字符串对象
             public String(byte[] bys)        | 根据字节数组的内容，来创建字符串对象
             String s = "abc"                 | 直接赋值的方式创建字符串对象，内容为abc
-            李旭
